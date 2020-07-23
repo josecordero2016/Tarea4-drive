@@ -1,69 +1,155 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout">
 
 
     <ImageView
-        android:id="@+id/imgPerfil"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="221dp"
-        android:layout_marginTop="117dp"
-        android:layout_weight="1"
-        android:scaleType="fitXY"
-        app:srcCompat="@mipmap/fp_foreground" />
+        android:id="@+id/imageView3"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="364dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_doc" />
 
     <TextView
-        android:id="@+id/lblCategoria3"
+        android:id="@+id/lblNombre"
+        android:layout_width="310dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="Evolución histórica.docx"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="19dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_opciones" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="419dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="-8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/doc" />
+
+    <TextView
+        android:id="@+id/lblCategoria"
         android:layout_width="114dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="136dp"
-        android:layout_marginEnd="270dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="264dp"
         android:layout_weight="1"
         android:text="Lo subiste ayer"
         android:textColor="#000000"
-        android:textSize="10sp" />
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="280dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="14dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="65dp"
-        android:layout_marginEnd="41dp"
-        app:srcCompat="@drawable/icon_principal" />
+        android:id="@+id/imageView2"
+        android:layout_width="419dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="-8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/diapo" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="14dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="375dp"
-        app:srcCompat="@drawable/icon_doc" />
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="368dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_diapo" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="564dp" />
 
     <TextView
-        android:id="@+id/lblNombre"
-        android:layout_width="291dp"
+        android:id="@+id/lblCategoria3"
+        android:layout_width="114dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="260dp"
         android:layout_weight="1"
-        android:text="Evolución histórica.docx"
-        android:textColor="#272727"
-        android:textSize="14sp" />
+        android:text="Lo subiste ayer"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/lblNombre2"
+        android:layout_width="310dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="288dp"
+        android:layout_weight="1"
+        android:text="Diapositiva final.pptx"
+        android:textColor="#272727"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="19dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_opciones" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
