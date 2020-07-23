@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_programados"
+            android:title="Reciente"
+            />
+        <item
+            android:id="@+id/fragment_correos"
+            android:icon="@drawable/icon_principal"
+            android:title="Sin conexión" />
+        <item
+            android:id="@+id/nav1"
+            android:icon="@drawable/icon_papelera"
+            android:title="Papelera" />
+
+        <item
+            android:id="@+id/nav2"
+            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav3"
+            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:title="Copias de seguridad" />
+        <item
+            android:id="@+id/nav4"
+            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/nav5"
+            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:title="Ayuda y comentarios" />
+
+        <item
+            android:id="@+id/nav6"
+            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:title="Almacenamiento (9% lleno)" />
+
+    </group>
+
+
+
+
+</menu>
