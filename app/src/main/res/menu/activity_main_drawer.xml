@@ -11,7 +11,7 @@
             />
         <item
             android:id="@+id/fragment_correos"
-            android:icon="@drawable/icon_principal"
+            android:icon="@drawable/icon_archivo"
             android:title="Sin conexión" />
         <item
             android:id="@+id/nav1"
@@ -20,24 +20,24 @@
 
         <item
             android:id="@+id/nav2"
-            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:icon="@drawable/icon_notificaciones"
             android:title="Notificaciones" />
         <item
             android:id="@+id/nav3"
-            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:icon="@drawable/icon_copias"
             android:title="Copias de seguridad" />
         <item
             android:id="@+id/nav4"
-            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:icon="@drawable/icon_configuracion"
             android:title="Configuración" />
         <item
             android:id="@+id/nav5"
-            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:icon="@drawable/icon_ayuda"
             android:title="Ayuda y comentarios" />
 
         <item
             android:id="@+id/nav6"
-            android:icon="@drawable/ic_baseline_people_outline_24"
+            android:icon="@drawable/icon_almacenamiento"
             android:title="Almacenamiento (9% lleno)" />
 
     </group>

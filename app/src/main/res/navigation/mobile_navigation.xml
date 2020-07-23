@@ -8,23 +8,23 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.tarea4.ui.home.HomeFragment"
-        android:label="Buscar en el correo electrónico"
+        android:label="Buscar en Drive"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.tarea4.ui.gallery.GalleryFragment"
-        android:label="Buscar en el correo electrónico"
+        android:label="Destacados"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.tarea4.ui.slideshow.SlideshowFragment"
-        android:label="Buscar en el correo electrónico"
+        android:label="Compartidos"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/fragment_correos"
         android:name="com.example.tarea4.fragment_correos"
-        android:label="fragment_correos"
+        android:label="Destacados"
         tools:layout="@layout/fragment_correos" />
 </navigation>
